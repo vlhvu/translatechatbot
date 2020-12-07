@@ -1,7 +1,0 @@
-django
-gunicorn
-django-heroku
-django-chatwork
-googletrans
-pychatwork
-langdetect
