@@ -46,10 +46,10 @@ def chatwork_webhook(request):
 
 
 
-    """#account_id bot not translate
+    #account_id bot not translate
     accountId = payload["webhook_event"]["account_id"]
     if accountId == ACCOUNT_ID_BOT:
-        return HttpResponse('Webhook received', status=200)"""
+        return HttpResponse('Webhook received', status=200)
 
     #translate message
     translator = Translator()
